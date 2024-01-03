@@ -1,3 +1,59 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 @import "colours";
 @import "header";
+@import "footer";
+
+
+
+
+
+#hero {
+
+    height: 550px;
+
+    @media screen and (min-width:768px)
+    {
+
+        height: 700px;
+
+    }
+
+
+    @media screen and (min-width:1200px)
+    {
+
+        height: 800px;
+
+    }
+
+    width: 100%;
+    background: #e5c895;
+    background-size: cover; /* Adjusts the image size to fit within the container */
+    background-repeat: no-repeat;
+    
+
+    //--the banner text--//
+    h1 {
+        color: #2a2a2a;
+        padding-left: 80px;
+        margin-top: -560px;
+    }
+
+}
+
+
+
+.content {
+
+
+    background: #ffffff ;
+    padding: 4rem 0;
+
+
+}
+
+
+.container {
+
+    color: black;
+}

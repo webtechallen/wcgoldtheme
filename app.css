@@ -11977,10 +11977,11 @@ textarea.form-control-lg {
   }
 }
 header {
-  background: #be9351;
+  background: #2a2a2a;
   padding: 1rem 0;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
   text-align: center;
+  height: 138px;
 }
 header .logo {
   width: 100px;
@@ -12000,4 +12001,63 @@ header .top-menu li a {
   font-size: 1.1rem;
   font-weight: bold;
   text-decoration: none;
+}
+
+footer {
+  background: #2a2a2a;
+  padding: 1rem 0;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  height: 138px;
+}
+footer .logo {
+  width: 100px;
+}
+footer .top-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+footer .top-menu li {
+  list-style-type: none;
+}
+footer .top-menu li a {
+  display: block;
+  padding: 0.25rem 1rem;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#hero {
+  height: 550px;
+  width: 100%;
+  background: #e5c895;
+  background-size: cover; /* Adjusts the image size to fit within the container */
+  background-repeat: no-repeat;
+}
+@media screen and (min-width: 768px) {
+  #hero {
+    height: 700px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #hero {
+    height: 800px;
+  }
+}
+#hero h1, #hero .h1 {
+  color: #2a2a2a;
+  padding-left: 80px;
+  margin-top: -560px;
+}
+
+.content {
+  background: #ffffff;
+  padding: 4rem 0;
+}
+
+.container {
+  color: black;
 }

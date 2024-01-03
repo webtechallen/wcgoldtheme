@@ -3018,14 +3018,6 @@ function withinMaxClamp(min, value, max) {
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.esm.js");
-document.addEventListener('DOMContentLoaded', function () {
-  var menuToggle = document.querySelector('.menu-toggle');
-  var navigation = document.querySelector('.navigation');
-  menuToggle.addEventListener('click', function () {
-    this.classList.toggle('active'); // Toggle the 'active' class on click
-    navigation.classList.toggle('active'); // Toggle the 'active' class on navigation
-  });
-});
 
 /***/ }),
 

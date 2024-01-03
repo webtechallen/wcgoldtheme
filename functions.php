@@ -27,8 +27,14 @@ add_action("wp_enqueue_scripts", "load_javascript");
 
 
 
-//Add menus
+
+
+//Add support
+
+
+//Add support
 add_theme_support("menus");
+add_theme_support("post-thumbnails");
 
 
 //Register some menus
@@ -65,3 +71,8 @@ function add_custom_admin_bar_menu( $wp_admin_bar ) {
     ));
 }
 add_action( 'admin_bar_menu', 'add_custom_admin_bar_menu', 999 );
+
+
+
+
+// Add image sizes
